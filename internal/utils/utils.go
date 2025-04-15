@@ -8,9 +8,10 @@ import (
 )
 
 type Values struct {
-	Email   string
-	Code    string
-	NewLink string
+	Email      string
+	Code       string
+	NewLink    string
+	Is2FaValid bool
 }
 
 type FormRunner struct {
